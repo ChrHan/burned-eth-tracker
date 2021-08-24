@@ -3,6 +3,8 @@
 This is a CLI based ETH tracker, inspired by [fees.wtf](https://fees.wtf)
 leveraging [Etherscan.io](https://etherscan.io)'s API.
 
+Made possible by [seb's etherscan-api](https://github.com/sebs/etherscan-api#readme)
+
 ## How to run?
 
 * Get your own [Etherscan.io](https://etherscan.io) API key from [Etherscan.io/apis](https://etherscan.io/apis)
@@ -21,3 +23,5 @@ This will result to something like this:
     You used 4932977 gas to send 36 transactions, with an average price of 78.43165851380556 gwei
     4 of them failed, costing you Ξ0.033985100870755264
 ```
+
+
