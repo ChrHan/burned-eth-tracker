@@ -1,10 +1,8 @@
 const dotenv = require('dotenv').config();
 var api = require('etherscan-api').init(process.env.ETHERSCAN_API_KEY);
 
-//var balance = api.account.balance('0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae');
 var balance = api.account.balance(process.env.ETH_ADDRESS);
 balance.then(function(balanceData){
-  //console.log(balanceData);
   var etherBalance = balanceData.result/Math.pow(10, 18)
   console.log("Balance in ETH: " + etherBalance)
 });
